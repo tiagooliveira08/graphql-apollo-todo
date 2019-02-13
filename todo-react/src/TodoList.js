@@ -38,6 +38,8 @@ const TodosQuery = gql`
         allTodoes{
             id
             text
+            createdAt
+            updatedAt
         }
     }
 `;
